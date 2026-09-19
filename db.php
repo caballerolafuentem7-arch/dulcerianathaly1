@@ -3,8 +3,8 @@
 $host = 'mysql-mariacristina.alwaysdata.net';
 
 $dbname = 'mariacristina_dulceria_nathaly';
-$username = 'root';
-$password = 'mariacristina';
+$username = 'mariacristina';
+$password = 'Anyelina1234';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password, [
